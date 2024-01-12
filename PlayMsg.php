@@ -14,6 +14,7 @@ if (isset($_GET['type'])) {
   <h1>The call type is <?php echo $calltype; ?></h1>
   <audio id="audio" controls autoplay>
   <source src="<?php echo $calltype; ?>.mp3" preload="auto" type="audio/mpeg"/>
+  <!--source src="<?php echo $calltype; ?>.wav" preload="auto" type="audio/mpeg"/-->
   Audio cannot be played on this browser - please use Edge, Chrome or Firefox
 </audio>
 </body>
