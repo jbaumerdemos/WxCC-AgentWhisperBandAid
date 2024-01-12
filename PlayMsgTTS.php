@@ -12,7 +12,7 @@ use Google\Cloud\TextToSpeech\V1\VoiceSelectionParams;
 //$textToSpeechClient = new TextToSpeechClient();
 
 $textToSpeechClient = new TextToSpeechClient([
-    'credentials' => '/home3/admin911/public_html/oursites/cisco/vendor/google/ttscredentials.json'
+    'credentials' => '<path/to/credentials/file.json>'
 ]);
 
 if (isset($_GET['type'])) {
