@@ -1,1 +1,1 @@
-This folder contains the code needed for the PHP based prompt utility
+Go to https://github.com/jbaumerdemos/WxCC-AudioPromptMgr for the prompt manager utility
